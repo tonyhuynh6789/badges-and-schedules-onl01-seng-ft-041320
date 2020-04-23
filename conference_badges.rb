@@ -22,7 +22,7 @@ def printer(attendees)
     print badge
   end 
   
-  assign_rooms(attendees).each do |assigmented|
+  assign_rooms(attendees).each do |assignment|
     print assigmented
   end 
 end 
